@@ -40,8 +40,8 @@ function sendEmail(name, email, subject, message) {
         Host: "smtp.gmail.com",
         Username: "email/username",
         Password: "password",
-        To: "wiktor.jaworowski25@gmail.com",
-        From: "wiktor.jaworowski25@gmail.com",
+        To: "",
+        From: "",
         Subject: `${subject}`,
         Body: `
         Name: ${name} <br>
